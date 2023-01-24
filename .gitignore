@@ -1,0 +1,32 @@
+# Project
+local_settings.py
+*.log
+*.cache
+*.db
+*.rdb
+*.lock
+!delete.me
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+static/
+conf.d/
+ve/
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+nbproject/
+.vagrant
+.project
+.pydevproject
