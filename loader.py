@@ -31,7 +31,7 @@ class MyLoader(SourceLoader):
         return data
 
 
-loader_details = MyLoader, [".py"]
+loader_details = MyLoader, [".pyenc"]
 
 
 def install():
