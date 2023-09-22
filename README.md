@@ -1,10 +1,12 @@
 # Мини-проект для проверки шифрования проекта django
 
-## Сборка проекта
-```commandline
-make build
+## Формирование pyc файлов
+```
+./encrypt_pyc.sh
 ```
 
-```commandline
-make build
+## Шифрование nuitka
+```
+python -m pip install nuitka
+./encrypt_nuitka.sh
 ```
