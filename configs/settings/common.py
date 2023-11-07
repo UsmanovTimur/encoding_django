@@ -1,7 +1,7 @@
 """
 Django settings for encoding_django project.
 """
-
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -36,7 +36,7 @@ ROOT_URLCONF = 'configs.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['./core/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
